@@ -40,9 +40,6 @@ public:
                 int left = dp[y][x-1];
                 int diag = dp[y-1][x-1] + (text1[y] == text2[x]? 1 : 0);
 
-                if(x == 210 && y == 210)
-                    cout << diag << " " << left << " " << up << endl;
-
                 dp[y][x] = max(diag, max(left, up));
             }
         }

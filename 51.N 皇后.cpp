@@ -1,7 +1,7 @@
 /*
  * @Author: Vanish
  * @Date: 2024-10-29 19:14:21
- * @LastEditTime: 2024-10-29 20:16:03
+ * @LastEditTime: 2024-11-02 10:55:00
  * Also View: http://vanishing.cc
  * Contract Me: http://qunchengxiao.me
  * Copyright@ http://www.wtfpl.net/
@@ -12,6 +12,7 @@
  * [51] N 皇后
  */
 
+//TODO:没写完
 
 #include <vector>
 #include <string>
@@ -20,15 +21,15 @@ using namespace std;
 // @lc code=start
 class Solution {
 public:
-    vector<vector<pair<int,int>>> solvesOfNQueens;
+    vector<vector<pair<int, int>>> solvesOfNQueens;
 
-    void BackTrack(int n,int queenCount,int x ,int y,vector<int> &row,vector<int> &col,vector<pair<int,int>> &oneSolution)
+    void BackTrack(int n, int queenCount, int x, int y, vector<int> &row, vector<int> &col, vector<pair<int, int>> &oneSolution)
     {
-        if(row[x] || col[y])
+        if (row[x] || col[y])
         {
             return;
         }
-        if(queenCount == n)
+        if (queenCount == n)
         {
             solvesOfNQueens.emplace_back(oneSolution);
             return;
@@ -52,7 +53,7 @@ public:
     vector<vector<string>> solveNQueens(int n) {
         vector<int> row(n,0),col(n,0);
         vector<pair<int,int>> oneSolution;
-        BackTrack(n,0,0,0,row,col,oneSolution);
+        BackTrack(n,1,0,0,row,col,oneSolution);
 
         vector<vector<string>> result;
         for(auto &solution : solvesOfNQueens)
@@ -72,4 +73,6 @@ public:
 int main()
 {
     Solution s;
+    s.solveNQueens(4);
+    return 0;
 }
