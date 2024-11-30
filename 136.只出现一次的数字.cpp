@@ -12,6 +12,7 @@
  * [136] 只出现一次的数字
  */
 
+//TIP:异或运算示例(找出只出现一次的数字)
 // @lc code=start
 
 #include <vector>
