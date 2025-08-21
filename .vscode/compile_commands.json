@@ -1,0 +1,6 @@
+[
+{
+  "directory": "c:\\Users\\20131\\Desktop\\Workplace\\SolutionsForLeetCodeProblems",
+  "arguments": ["C:\\Program Files\\LLVM\\bin\\clang.exe", "-c", "-Qunused-arguments", "-m64", "--target=x86_64-windows-msvc", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-Ibuild\\.gens\\8.21_88.合并两个有序数组\\windows\\x64\\release\\platform\\windows\\idl", "-fexceptions", "-fcxx-exceptions", "-DNDEBUG", "-o", "build\\.objs\\8.21_88.合并两个有序数组\\windows\\x64\\release\\Solves\\8.21\\88.合并两个有序数组.cpp.obj", "Solves\\8.21\\88.合并两个有序数组.cpp"],
+  "file": "Solves\\8.21\\88.合并两个有序数组.cpp"
+}]
