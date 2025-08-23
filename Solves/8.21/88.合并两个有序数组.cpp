@@ -3,7 +3,7 @@
  * //  Copyright (c) 2025 Vanishing Games. All Rights Reserved.
  * @Author: VanishXiao
  * @Date: 2025-08-21 20:30:45
- * @LastEditTime: 2025-08-21 21:40:10
+ * @LastEditTime: 2025-08-23 17:45:27
  * // -----------------------------------------------------------------------------
  */
 /*
@@ -20,13 +20,13 @@ using namespace std;
 // @lc code=start
 class Solution
 {
-public:
+public: 
     void merge(vector<int> &nums1, int m, vector<int> &nums2, int n)
     {
         int ptr1 = m - 1;
         int ptr2 = n - 1;
 
-        for (size_t i = m + n - 1; i >= 0; i--)
+        for (int i = m + n - 1; i >= 0; i--)
         {
             if (ptr1 >= 0 && ptr2 >= 0)
             {
@@ -44,9 +44,9 @@ public:
 int main()
 {
     Solution solution;
-    vector<int> nums1 = {1, 2, 3, 0, 0, 0};
-    vector<int> nums2 = {2, 5, 6};
-    solution.merge(nums1, 3, nums2, 3);
+    vector<int> nums1 = {0};
+    vector<int> nums2 = {1};
+    solution.merge(nums1,0, nums2, 1);
 
     for (int num : nums1)
     {
