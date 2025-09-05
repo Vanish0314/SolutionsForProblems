@@ -1,6 +1,41 @@
 [
 {
-  "directory": "c:\\Users\\20131\\Desktop\\Workplace\\SolutionsForLeetCodeProblems",
-  "arguments": ["C:\\Program Files\\LLVM\\bin\\clang.exe", "-c", "-Qunused-arguments", "-m64", "--target=x86_64-windows-msvc", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-Ibuild\\.gens\\8.21_88.合并两个有序数组\\windows\\x64\\release\\platform\\windows\\idl", "-fexceptions", "-fcxx-exceptions", "-DNDEBUG", "-o", "build\\.objs\\8.21_88.合并两个有序数组\\windows\\x64\\release\\Solves\\8.21\\88.合并两个有序数组.cpp.obj", "Solves\\8.21\\88.合并两个有序数组.cpp"],
-  "file": "Solves\\8.21\\88.合并两个有序数组.cpp"
+  "directory": "/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems",
+  "arguments": ["/usr/bin/clang", "-c", "-Qunused-arguments", "-g", "-O0", "-o", "build/.objs/9.5_198.打家劫舍/macosx/arm64/debug/Solves/9.5/198.打家劫舍.cpp.o", "Solves/9.5/198.打家劫舍.cpp"],
+  "file": "Solves/9.5/198.打家劫舍.cpp"
+},
+{
+  "directory": "/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems",
+  "arguments": ["/usr/bin/clang", "-c", "-Qunused-arguments", "-g", "-O0", "-o", "build/.objs/8.24_11.盛最多水的容器/macosx/arm64/debug/Solves/8.24/11.盛最多水的容器.cpp.o", "Solves/8.24/11.盛最多水的容器.cpp"],
+  "file": "Solves/8.24/11.盛最多水的容器.cpp"
+},
+{
+  "directory": "/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems",
+  "arguments": ["/usr/bin/clang", "-c", "-Qunused-arguments", "-g", "-O0", "-o", "build/.objs/8.24_55.跳跃游戏/macosx/arm64/debug/Solves/8.24/55.跳跃游戏.cpp.o", "Solves/8.24/55.跳跃游戏.cpp"],
+  "file": "Solves/8.24/55.跳跃游戏.cpp"
+},
+{
+  "directory": "/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems",
+  "arguments": ["/usr/bin/clang", "-c", "-Qunused-arguments", "-g", "-O0", "-o", "build/.objs/8.23_80.删除有序数组中的重复项-ii/macosx/arm64/debug/Solves/8.23/80.删除有序数组中的重复项-ii.cpp.o", "Solves/8.23/80.删除有序数组中的重复项-ii.cpp"],
+  "file": "Solves/8.23/80.删除有序数组中的重复项-ii.cpp"
+},
+{
+  "directory": "/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems",
+  "arguments": ["/usr/bin/clang", "-c", "-Qunused-arguments", "-g", "-O0", "-o", "build/.objs/8.23_27.移除元素/macosx/arm64/debug/Solves/8.23/27.移除元素.cpp.o", "Solves/8.23/27.移除元素.cpp"],
+  "file": "Solves/8.23/27.移除元素.cpp"
+},
+{
+  "directory": "/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems",
+  "arguments": ["/usr/bin/clang", "-c", "-Qunused-arguments", "-g", "-O0", "-o", "build/.objs/8.25_2523.范围内最接近的两个质数/macosx/arm64/debug/Solves/8.25/2523.范围内最接近的两个质数.cpp.o", "Solves/8.25/2523.范围内最接近的两个质数.cpp"],
+  "file": "Solves/8.25/2523.范围内最接近的两个质数.cpp"
+},
+{
+  "directory": "/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems",
+  "arguments": ["/usr/bin/clang", "-c", "-Qunused-arguments", "-g", "-O0", "-o", "build/.objs/8.23_26.删除有序数组中的重复项/macosx/arm64/debug/Solves/8.23/26.删除有序数组中的重复项.cpp.o", "Solves/8.23/26.删除有序数组中的重复项.cpp"],
+  "file": "Solves/8.23/26.删除有序数组中的重复项.cpp"
+},
+{
+  "directory": "/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems",
+  "arguments": ["/usr/bin/clang", "-c", "-Qunused-arguments", "-g", "-O0", "-o", "build/.objs/8.21_88.合并两个有序数组/macosx/arm64/debug/Solves/8.21/88.合并两个有序数组.cpp.o", "Solves/8.21/88.合并两个有序数组.cpp"],
+  "file": "Solves/8.21/88.合并两个有序数组.cpp"
 }]
