@@ -36,7 +36,6 @@
     "files.autoGuessEncoding": true,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "security.workspace.trust.untrustedFiles": "open",
     // =============================================================================
     // 终端设置
     // =============================================================================
@@ -44,11 +43,15 @@
     "terminal.integrated.fontFamily": "monospace",
     "terminal.integrated.fontWeightBold": "bold",
     "terminal.integrated.smoothScrolling": true,
+    // 指定外部终端（用于调试配置 console=externalTerminal）
+    "terminal.external.osxExec": "Terminal.app",
     // =============================================================================
     // 调试设置
     // =============================================================================
     "debug.showBreakpointsInOverviewRuler": true,
     "debug.onTaskErrors": "showErrors",
+    // 总是以会话开始时打开调试视图，确保看到调试 UI（变量/调用栈/控制台）
+    "debug.openDebug": "openOnSessionStart",
     // =============================================================================
     // Git设置
     // =============================================================================
@@ -78,7 +81,6 @@
     "cmake.allowCommentsInPresetsFile": true,
     "cmake.copyCompileCommands": "${ROOT_DIRECTORY}",
     "cmake.exportCompileCommandsFile": true,
-    "cmake.showConfigureWithDebuggerNotification": false,
     "cmake.ignoreCMakeListsMissing": true,
     "cmake.buildBeforeRun": false,
     "cmake.pinnedCommands": [
@@ -158,13 +160,7 @@
     // =============================================================================
     "diffEditor.ignoreTrimWhitespace": false,
     "explorer.confirmPasteNative": false,
-    "leetcode.endpoint": "leetcode-cn",
-    "leetcode.hint.commandShortcut": false,
     "redhat.telemetry.enabled": true,
-    "leetcode.hint.configWebviewMarkdown": false,
-    "leetcode.workspaceFolder": "/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems",
-    "leetcode.defaultLanguage": "cpp",
-    "leetcode.hint.commentDescription": false
     // =============================================================================
     // 环境变量说明
     // =============================================================================

@@ -11,6 +11,8 @@ let readInts () =
 
 [<EntryPoint>]
 let main _argv =
+    printfn "Hello, F#!"
+
     let t = Console.ReadLine() |> int
     for _ in 1 .. t do
         let arr = readInts()

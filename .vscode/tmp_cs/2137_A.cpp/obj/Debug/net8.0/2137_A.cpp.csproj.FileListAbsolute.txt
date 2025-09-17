@@ -1,0 +1,5 @@
+/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/.vscode/tmp_cs/2137_A.cpp/obj/Debug/net8.0/2137_A.cpp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/.vscode/tmp_cs/2137_A.cpp/obj/Debug/net8.0/2137_A.cpp.AssemblyInfoInputs.cache
+/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/.vscode/tmp_cs/2137_A.cpp/obj/Debug/net8.0/2137_A.cpp.AssemblyInfo.cs
+/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/.vscode/tmp_cs/2137_A.cpp/obj/Debug/net8.0/2137_A.cpp.csproj.CoreCompileInputs.cache
+/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/.vscode/tmp_cs/2137_A.cpp/obj/Debug/net8.0/2137_A.cpp.sourcelink.json

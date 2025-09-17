@@ -3,7 +3,7 @@
  * //  Copyright (c) 2025 Vanishing Games. All Rights Reserved.
  * @Author: VanishXiao
  * @Date: 2025-09-17 15:44:00
- * @LastEditTime: 2025-09-17 16:40:42
+ * @LastEditTime: 2025-09-17 17:08:15
  * -----------------------------------------------------------------------------
  */
 #include <iostream>
@@ -16,6 +16,8 @@ int Solve(int k, int x)
 
 int main()
 {
+    cout << "Hello, C++!" << endl;
+
     int t;
     cin >> t;
     while (t--)

@@ -3,17 +3,30 @@ set -euo pipefail
 
 SRC_FILE="$1"
 BASENAME_NO_EXT="$(basename "${SRC_FILE}" .fs)"
-WORK_DIR="$(cd "$(dirname "$0")/.." && pwd)"
-OUT_ROOT="${WORK_DIR}/.vscode/tmp_fs/${BASENAME_NO_EXT}"
+# project root is two levels up from this script: .vscode/scripts -> project
+PROJECT_ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
+OUT_ROOT="${PROJECT_ROOT}/.vscode/tmp_fs/${BASENAME_NO_EXT}"
+ABS_SRC="$(cd "$(dirname "${SRC_FILE}")" && pwd)/$(basename "${SRC_FILE}")"
 
 mkdir -p "${OUT_ROOT}"
 
-if [ ! -f "${OUT_ROOT}/${BASENAME_NO_EXT}.fsproj" ]; then
-  dotnet new console -n "${BASENAME_NO_EXT}" -o "${OUT_ROOT}" --force --framework net8.0 --language "F#" >/dev/null
-fi
+# Generate a minimal fsproj that compiles the original file directly so PDBs map to your source path
+rm -f "${OUT_ROOT}/Program.fs" || true
 
-# Replace Program.fs with the active file
-cp "${SRC_FILE}" "${OUT_ROOT}/Program.fs"
+cat > "${OUT_ROOT}/${BASENAME_NO_EXT}.fsproj" <<EOF
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Optimize>false</Optimize>
+    <DebugType>portable</DebugType>
+    <EnableDefaultItems>false</EnableDefaultItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="${ABS_SRC}" Link="Program.fs" />
+  </ItemGroup>
+</Project>
+EOF
 
 dotnet build "${OUT_ROOT}" -c Debug
 

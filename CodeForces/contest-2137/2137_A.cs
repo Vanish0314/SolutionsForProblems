@@ -1,12 +1,15 @@
 using System;
 using System.Text;
+using Internal;
 
 class Program
 {
-    static int Solve(int k, int x) => x << (k-2);
+    static int Solve(int k, int x) => x << (k - 2);
 
     static void Main()
     {
+        Console.WriteLine("Hello, C#!");
+
         string? line = Console.ReadLine();
         if (line == null)
             return;

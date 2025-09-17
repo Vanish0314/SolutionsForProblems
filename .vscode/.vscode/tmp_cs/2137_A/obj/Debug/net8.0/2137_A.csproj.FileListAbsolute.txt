@@ -1,0 +1,15 @@
+/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/.vscode/.vscode/tmp_cs/2137_A/bin/Debug/net8.0/2137_A
+/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/.vscode/.vscode/tmp_cs/2137_A/bin/Debug/net8.0/2137_A.deps.json
+/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/.vscode/.vscode/tmp_cs/2137_A/bin/Debug/net8.0/2137_A.runtimeconfig.json
+/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/.vscode/.vscode/tmp_cs/2137_A/bin/Debug/net8.0/2137_A.dll
+/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/.vscode/.vscode/tmp_cs/2137_A/bin/Debug/net8.0/2137_A.pdb
+/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/.vscode/.vscode/tmp_cs/2137_A/obj/Debug/net8.0/2137_A.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/.vscode/.vscode/tmp_cs/2137_A/obj/Debug/net8.0/2137_A.AssemblyInfoInputs.cache
+/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/.vscode/.vscode/tmp_cs/2137_A/obj/Debug/net8.0/2137_A.AssemblyInfo.cs
+/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/.vscode/.vscode/tmp_cs/2137_A/obj/Debug/net8.0/2137_A.csproj.CoreCompileInputs.cache
+/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/.vscode/.vscode/tmp_cs/2137_A/obj/Debug/net8.0/2137_A.sourcelink.json
+/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/.vscode/.vscode/tmp_cs/2137_A/obj/Debug/net8.0/2137_A.dll
+/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/.vscode/.vscode/tmp_cs/2137_A/obj/Debug/net8.0/refint/2137_A.dll
+/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/.vscode/.vscode/tmp_cs/2137_A/obj/Debug/net8.0/2137_A.pdb
+/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/.vscode/.vscode/tmp_cs/2137_A/obj/Debug/net8.0/2137_A.genruntimeconfig.cache
+/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/.vscode/.vscode/tmp_cs/2137_A/obj/Debug/net8.0/ref/2137_A.dll

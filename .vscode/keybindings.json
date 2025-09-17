@@ -1,0 +1,43 @@
+[
+	// 移除默认的 F5（全局启动最近一次调试配置），避免覆盖我们按语言分派的配置
+	{
+		"key": "f5",
+		"command": "-workbench.action.debug.start"
+	},
+	// C#
+	{
+		"key": "f5",
+		"command": "debug.startFromConfig",
+		"args": {
+			"name": "Debug Active C# File (.NET)",
+			"type": "coreclr",
+			"request": "launch",
+			"noDebug": false
+		},
+		"when": "editorTextFocus && editorLangId == csharp"
+	},
+	// F#
+	{
+		"key": "f5",
+		"command": "debug.startFromConfig",
+		"args": {
+			"name": "Debug Active F# File (.NET)",
+			"type": "coreclr",
+			"request": "launch",
+			"noDebug": false
+		},
+		"when": "editorTextFocus && editorLangId == fsharp"
+	},
+	// C/C++（xmake）
+	{
+		"key": "f5",
+		"command": "debug.startFromConfig",
+		"args": {
+			"name": "Debug Active C++ File (xmake)",
+			"type": "lldb",
+			"request": "launch",
+			"noDebug": false
+		},
+		"when": "editorTextFocus && (editorLangId == cpp || editorLangId == c)"
+	}
+]

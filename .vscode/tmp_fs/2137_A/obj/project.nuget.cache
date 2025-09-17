@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IQXCSu2/q98=",
+  "success": true,
+  "projectFilePath": "/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/.vscode/tmp_fs/2137_A/2137_A.fsproj",
+  "expectedPackageFiles": [
+    "/Users/vanish/.nuget/packages/fsharp.core/9.0.300/fsharp.core.9.0.300.nupkg.sha512"
+  ],
+  "logs": []
+}

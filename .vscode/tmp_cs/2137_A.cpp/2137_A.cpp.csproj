@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Optimize>false</Optimize>
+    <DebugType>portable</DebugType>
+    <EnableDefaultItems>false</EnableDefaultItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems/CodeForces/contest-2137/2137_A.cpp" Link="Program.cs" />
+    <Compile Include="Compat.Internal.cs" />
+  </ItemGroup>
+</Project>
