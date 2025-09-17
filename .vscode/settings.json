@@ -1,0 +1,185 @@
+{
+    // =============================================================================
+    // 编辑器基础设置
+    // =============================================================================
+    "editor.fontFamily": "SourceCodePro-Bold",
+    "editor.fontSize": 14,
+    "editor.wordWrap": "on",
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "smooth",
+    "editor.mouseWheelZoom": true,
+    "editor.guides.bracketPairs": true,
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.inlayHints.enabled": "onUnlessPressed",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.minimap.renderCharacters": false,
+    // =============================================================================
+    // 工作区设置
+    // =============================================================================
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "none",
+    "workbench.list.smoothScrolling": true,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.editorAssociations": {
+        "*.bin": "default"
+    },
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#FF0000",
+        "terminalCursor.foreground": "#FF0000"
+    },
+    // =============================================================================
+    // 文件设置
+    // =============================================================================
+    "files.autoSave": "off",
+    "files.autoGuessEncoding": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    // =============================================================================
+    // 终端设置
+    // =============================================================================
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontWeightBold": "bold",
+    "terminal.integrated.smoothScrolling": true,
+    // =============================================================================
+    // 调试设置
+    // =============================================================================
+    "debug.showBreakpointsInOverviewRuler": true,
+    "debug.onTaskErrors": "showErrors",
+    // =============================================================================
+    // Git设置
+    // =============================================================================
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    // =============================================================================
+    // 语言特定设置
+    // =============================================================================
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[csharp]": {
+        "editor.defaultFormatter": "csharpier.csharpier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": null
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    // =============================================================================
+    // CMake设置
+    // =============================================================================
+    "cmake.allowCommentsInPresetsFile": true,
+    "cmake.copyCompileCommands": "${ROOT_DIRECTORY}",
+    "cmake.exportCompileCommandsFile": true,
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "cmake.ignoreCMakeListsMissing": true,
+    "cmake.buildBeforeRun": false,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/.vscode"
+    ],
+    "clangd.checkUpdates": true,
+    // =============================================================================
+    // Clang-format设置
+    // =============================================================================
+    "clang-format.fallbackStyle": "WebKit",
+    "clang-format.executable": "clang-format",
+    "clang-format.language.proto.enable": false,
+    "clang-format.language.typescript.enable": false,
+    "clang-format.language.objective-c.enable": false,
+    "clang-format.language.java.enable": false,
+    "clang-format.language.javascript.enable": false,
+    "clang-format.language.c.enable": false,
+    "clang-format.language.apex.enable": false,
+    // =============================================================================
+    // 扩展设置
+    // =============================================================================
+    "vsicons.dontShowNewVersionMessage": true,
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning",
+        "info",
+        "hint"
+    ],
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]",
+        "TIP",
+        "好题"
+    ],
+    "path-intellisense.autoSlashAfterDirectory": true,
+    "path-intellisense.autoTriggerNextSuggestion": true,
+    "path-intellisense.extensionOnImport": true,
+    "path-intellisense.showHiddenFiles": true,
+    "betterAlign.surroundSpace": {
+        "colon": [
+            0,
+            1
+        ],
+        "assignment": [
+            1,
+            1
+        ],
+        "arrow": [
+            1,
+            1
+        ],
+        "comment": 4
+    },
+    "fileheader.customMade": {
+        "custom_string_obkoro1": "-----------------------------------------------------------------------------",
+        "Author": "VanishXiao",
+        "Date": "Do not edit",
+        "LastEditTime": "Do not edit",
+        "custom_string_obkoro5": "-----------------------------------------------------------------------------"
+    },
+    // =============================================================================
+    // C#相关设置
+    // =============================================================================
+    "csharpier.enableDebugLogs": true,
+    "csharpier.diagnosticsLevel": "3",
+    // =============================================================================
+    // 其他设置
+    // =============================================================================
+    "diffEditor.ignoreTrimWhitespace": false,
+    "explorer.confirmPasteNative": false,
+    "leetcode.endpoint": "leetcode-cn",
+    "leetcode.hint.commandShortcut": false,
+    "redhat.telemetry.enabled": true,
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.workspaceFolder": "/Users/vanish/Desktop/FromGit/SolutionsForLeetCodeProblems",
+    "leetcode.defaultLanguage": "cpp",
+    "leetcode.hint.commentDescription": false
+    // =============================================================================
+    // 环境变量说明
+    // =============================================================================
+    // 请确保设置以下环境变量：
+    // CLANGD_PATH: clangd语言服务器的路径
+    // CLANG_FORMAT_PATH: clang-format格式化工具的路径  
+    // MONO_PATH: Mono框架的路径
+    //
+    // macOS示例：
+    // export CLANGD_PATH="/usr/local/bin/clangd"
+    // export CLANG_FORMAT_PATH="/usr/local/bin/clang-format"
+    // export MONO_PATH="/Library/Frameworks/Mono.framework/Versions/Current"
+    //
+    // Windows示例：
+    // set CLANGD_PATH=C:\DevTools\clangd_19.1.2\bin\clangd.exe
+    // set CLANG_FORMAT_PATH=C:\DevTools\clang-format.exe
+    // set MONO_PATH=C:\Program Files\Mono
+}

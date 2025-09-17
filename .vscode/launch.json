@@ -1,0 +1,40 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Active C++ File (xmake)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/macosx/arm64/debug/${fileBasenameNoExtension}",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "MIMode": "lldb",
+      "preLaunchTask": "build-cpp-active"
+    },
+    {
+      "name": "Debug Active C# File (.NET)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/.vscode/tmp_cs/${fileBasenameNoExtension}/bin/Debug/net8.0/${fileBasenameNoExtension}.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "justMyCode": true,
+      "preLaunchTask": "build-cs-active"
+    },
+    {
+      "name": "Debug Active F# File (.NET)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/.vscode/tmp_fs/${fileBasenameNoExtension}/bin/Debug/net8.0/${fileBasenameNoExtension}.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "justMyCode": true,
+      "preLaunchTask": "build-fs-active"
+    }
+  ]
+}
+
+
